@@ -1,0 +1,41 @@
+.keyboard{
+    max-width: 500px;
+}
+.char{
+    width: 55px;
+    height: 55px;
+    border-radius: 0;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 0;
+    border: 1px solid #b9d6f8;
+    margin: 1px;
+}
+
+.regularChar{
+    background-color: #e4f1fe;
+    color: #0074e4; 
+}
+
+.regularChar:hover{
+    background-color: #b9d6f8; 
+    color: #0061b0;
+  
+}
+.regularChar:active{
+    background-color: #0074e4; 
+    color: #fff;   
+}
+
+.correct{
+    background-color: #0074e4; 
+    color: #fff; 
+    outline: none;
+}
+
+.wrong{
+    background-color: #a8a8a8; 
+    color: #dcdcdc;
+    border: 1px solid #333; 
+    cursor: not-allowed; 
+}

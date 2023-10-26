@@ -1,0 +1,10 @@
+.dash {
+    border-bottom: 0.1em black solid;
+    font-size: 30px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}

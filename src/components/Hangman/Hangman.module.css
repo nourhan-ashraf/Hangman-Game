@@ -1,0 +1,179 @@
+.head {
+    position: absolute;
+    top: 98px;
+    right: -45px;
+    transform: rotate(180deg);
+}
+
+.body {
+    position: absolute;
+    top: 86px;
+    right: 8px;
+    transform: rotate(225deg);
+    transform-origin: right bottom;
+}
+
+.rightArm {
+    position: absolute;
+    top: 165px;
+    right: 10px;
+    transform: rotate(90deg);
+    transform-origin: right bottom;
+}
+
+.leftArm {
+    position: absolute;
+    top: 165px;
+    right: 10px;
+    transform-origin: right bottom;
+}
+
+.rightLeg {
+    position: absolute;
+    top: 320px;
+    right: -65px;
+    transform: rotate(10deg);
+    transform-origin: right bottom;
+}
+
+.leftLeg {
+    position: absolute;
+    top: 316px;
+    right: 95px;
+    transform: rotate(85deg);
+    transform-origin: right bottom;
+}
+
+.leftEye {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 130px;
+    right: 40px;
+    transform: rotate(85deg);
+    transform-origin: right bottom;
+}
+
+.rightEye {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 125px;
+    right: 14px;
+    transform: rotate(85deg);
+    transform-origin: right bottom;
+}
+
+.tongue {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 150px;
+    right: -10px;
+    transform: rotate(10deg);
+    transform-origin: right bottom;
+}
+
+.hanger1 {
+    height: 50px;
+    width: 10px;
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+
+.hanger2 {
+    height: 10px;
+    width: 200px;
+    margin-left: 120px;
+}
+
+.hanger3 {
+    height: 400px;
+    width: 10px;
+    margin-left: 120px;
+}
+
+.hanger4 {
+    height: 10px;
+    width: 250px;
+}
+.chances{
+    font-size:20px ;
+}
+
+@media screen and (max-width:1000px) {
+    .hanger1 {
+        height: 40px;
+        width: 7px;
+    }
+
+    .hanger2 {
+        width: 130px;
+        height: 7px;
+    }
+
+    .hanger3 {
+        height: 200px;
+        width: 7px;
+    }
+
+    .hanger4 {
+        height: 7px;
+        width: 127px;
+    }
+
+    .head {
+        top: 88px;
+        width: 75px;
+        right: -32px;
+    }
+
+    .body {
+        top: 100px;
+        width: 52px;
+    }
+
+    .rightArm {
+        top: 130px;
+        width: 60px;
+    }
+
+    .leftArm {
+        top: 130px;
+        width: 60px;
+    }
+
+    .rightLeg {
+        top: 220px;
+        width: 55px;
+        right: -32px;
+    }
+
+    .leftLeg {
+        top: 217px;
+        width: 55px;
+        right: 55px;
+    }
+
+    .leftEye {
+        width: 20px;
+        height: 20px;
+        top: 115px;
+        right: 30px;
+    }
+
+    .rightEye {
+        width: 25px;
+        height: 25px;
+        top: 112px;
+        right: 12px;
+    }
+
+    .tongue {
+        width: 30px;
+        height: 30px;
+        top: 128px;
+        right: -2px;
+    }
+}

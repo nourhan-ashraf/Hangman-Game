@@ -1,0 +1,69 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90vw;
+    height: 90vh;
+    padding: 5vh 5vw;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.hangman {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px
+}
+
+.btns {
+    display: flex;
+    gap: 20px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.subTitle {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+@media screen and (max-width:1200px) {
+    .hangman {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .body{
+     height: 100%;
+ 
+    }
+     .grid{
+         display: flex;
+         flex-direction: column;
+         gap:70px
+     }
+ }
