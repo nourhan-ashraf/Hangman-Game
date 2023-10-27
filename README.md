@@ -42,9 +42,10 @@ This project is built with the following technologies:
 - [React](https://reactjs.org/): A JavaScript library for building user interfaces.
 - [TypeScript](https://www.typescriptlang.org/): A typed superset of JavaScript for better development experience.
 
-<img src="https://github.com/nourhan-ashraf/Hangman-Game/assets/66208099/d6fa1be9-524c-45bf-8da5-ad331a06e355" alt="React JS" width="60">&nbsp;
-<img src="https://github.com/nourhan-ashraf/Hangman-Game/assets/66208099/ab84a4fe-c5f7-4c37-8672-de165861f1ac" alt="React and TypeScript" width="100">&nbsp;
-<img src="https://github.com/nourhan-ashraf/Hangman-Game/assets/66208099/c15ead27-d9a3-44cd-a60e-e9fb124f2036" alt="React and TypeScript" width="100">&nbsp;
+
+<img src="https://github.com/nourhan-ashraf/Hangman-Game/assets/66208099/d765ecba-315d-4541-b631-71fe93c24530" alt="React JS" width="110"> &nbsp;
+<img src="https://github.com/nourhan-ashraf/Hangman-Game/assets/66208099/fda0e970-35a9-46c6-b6a6-85647044a041" alt="React JS" width="150"> &nbsp;
+<img src="https://github.com/nourhan-ashraf/Hangman-Game/assets/66208099/e3fe2688-011d-42ca-b42f-e6136c063200" alt="React JS" width="150"> &nbsp;
 
 
  <br/> 
@@ -55,7 +56,8 @@ This project is built with the following technologies:
 ## video
 
 
-https://github.com/nourhan-ashraf/Hangman-Game/assets/66208099/f3ba012f-4c25-424d-a6f3-621d5cf6ee46
+
+https://github.com/nourhan-ashraf/Hangman-Game/assets/66208099/e501773c-e2fb-4eb7-9814-823d26eb9161
 
 
 
