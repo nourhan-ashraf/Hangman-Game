@@ -13,5 +13,7 @@
     .dash {
         font-size: 22px;
     }
-
+    .flex {
+        gap: 10px;
+    }
 }
