@@ -8,3 +8,10 @@
     flex-direction: row;
     gap: 15px;
 }
+
+@media screen and (max-width:500px) {
+    .dash {
+        font-size: 22px;
+    }
+
+}

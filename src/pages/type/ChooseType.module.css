@@ -1,7 +1,7 @@
 .body {
     display: flex;
     flex-direction: column;
-    gap: 255px;
+    gap:35%;
     width: 90vw;
     height: 90vh;
     padding: 5vh 5vw;
@@ -26,3 +26,11 @@
     gap: 20px;
 }
 
+
+@media screen and (max-width:425px) {
+    .body { 
+        gap:200px;
+        height: inherit;
+    }
+    
+}

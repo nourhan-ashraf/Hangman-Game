@@ -39,3 +39,16 @@
     border: 1px solid #333; 
     cursor: not-allowed; 
 }
+
+
+@media screen and (max-width:500px) {
+    .keyboard{
+        max-width: 300px;
+    }
+    .char{
+        width: 35px;
+        height: 35px;
+        font-size: 15px;
+    }
+    
+}

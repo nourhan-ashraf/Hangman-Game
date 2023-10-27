@@ -5,7 +5,7 @@ const Footer = () => {
   return (
    
 
-    <footer style={{ fontSize: "15px"}}>
+    <footer style={{ fontSize: "12px"}}>
       {language === "en"
         ? <div>          
          Read more about  <Link to="https://github.com/nourhan-ashraf/Hangman-Game" target="_blank" rel="noopener">this project</Link>       
