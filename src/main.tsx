@@ -10,9 +10,6 @@ import { ColorProvider } from "./contexts/ColorMode.tsx";
 import { WordProvider } from "./contexts/WordContext.tsx";
 import { GrowthBookProvider } from "@growthbook/growthbook-react";
 import {growthbook} from '../growthBook.ts'
-const options = {
-  api_host: "https://app.posthog.com",
-}
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
