@@ -6,16 +6,20 @@ import styles from "./ChooseType.module.css";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import { useWord } from "../../contexts/WordContext";
+import { growthbook } from '../../../growthBook'
+
 const ChooseType = () => {
   const navigate = useNavigate();
   const { t } = useTranslation();
   const { setTopic } = useWord();
+  const flagEnabled = growthbook.isOn("buttons-group")
+ 
   return (
-    <div className={styles.body}>
+    <div className={flagEnabled ? styles.bodyVertically : styles.body}>
       <Header />
       <div className={styles.innerBody}>
         {t("choose")}
-        <div className={styles.btns}>
+        <div className={flagEnabled ? styles.verticalBtns : styles.btns}>
           <Button
             name={t("general")}
             variant="primary"

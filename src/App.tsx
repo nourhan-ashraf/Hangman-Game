@@ -5,8 +5,17 @@ import { useColor } from "./contexts/ColorMode";
 import GamePage from "./pages/game/GamePage";
 import { GAME_ROUTE, HOME_ROUTE, TYPE_ROUTE } from "./constants/Routes";
 import ChooseType from "./pages/type/ChooseType";
+import { useEffect } from "react";
+import { GrowthBookProvider } from "@growthbook/growthbook-react";
+import {growthbook} from '../growthBook.ts'
+
 function App() {
   const { color } = useColor();
+  useEffect(() => {
+    // Load features asynchronously when the app renders
+    growthbook.loadFeatures();
+  }, []);
+
   return (
     <div
       style={{
