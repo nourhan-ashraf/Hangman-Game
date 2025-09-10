@@ -1,4 +1,4 @@
-# Hangman Game
+# Test 2
 
 
 ### Contents:
