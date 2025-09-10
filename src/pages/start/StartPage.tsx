@@ -11,7 +11,7 @@ import { TYPE_ROUTE } from "../../constants/Routes";
 
 const StartPage = () => {
   const { t } = useTranslation();
-  const navigate = useNavigate();
+  const navgte = useNavigate();
   const { language } = useLanguage();
 
   useEffect(() => {
@@ -37,7 +37,7 @@ const StartPage = () => {
           name={t("start")}
           variant="primary"
           onClick={() => {
-            navigate(TYPE_ROUTE);
+            navgte(TYPE_ROUTE);
           }}
         />
       </main>
